@@ -1,17 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class BOT_Script : MonoBehaviour
+public class Patrol_Script : MonoBehaviour
 {
     private string RUN_ANIM = "isRunning";
     private string WALK_ANIM = "isWalking";
-    private string BITE_ANIM = "isBitable";
     [SerializeField] Transform[] wayPoints;
-    private Transform target;
-    private float target_distance;
-    public float detect_range;
-    private bool isChasing;
+    private System.Random rnd = new System.Random();
+
 
     private int wayPointIndex;
     private float distance;
@@ -22,12 +20,8 @@ public class BOT_Script : MonoBehaviour
     private Animator animator;
 
     private void Start()
-    {   
-        //Get the transform of the player
-        target = GameObject.FindGameObjectWithTag("Player").transform;
-        detect_range = 10f;
-        isChasing = false;
-
+    { 
+        playerSpeed = rnd.Next(2, 35);
         animator = GetComponent<Animator>();
         wayPointIndex = 0;
         transform.LookAt(wayPoints[wayPointIndex].position);
@@ -37,17 +31,11 @@ public class BOT_Script : MonoBehaviour
     {
         distance = Vector3.Distance(transform.position, wayPoints[wayPointIndex].position);
 
-        Detection();
-
-        if (!isChasing)
-        {
             if (distance < 1f)
             {
                 IncreaseIndex();
             }
             Patrol();
-        }
-
     }
 
     private void Patrol()
@@ -65,35 +53,5 @@ public class BOT_Script : MonoBehaviour
         }
         transform.LookAt(wayPoints[wayPointIndex].position);
     }
-
-    private void Detection()
-    {
-        target_distance = Vector3.Distance(target.position, transform.position);
-        if(target_distance <= detect_range)
-        {
-            isChasing = true;
-            if (target_distance <= 1)
-            {
-                In_Range_Bite(target_distance);
-            }
-            else
-            {
-                transform.LookAt(target);
-                animator.SetBool(RUN_ANIM, true);
-                transform.Translate(Vector3.forward * playerSpeed * Time.deltaTime);
-            }
-        }
-        else
-        {
-            isChasing = false;
-        }
-
-    }
-
-    private void In_Range_Bite(float target_distance)
-    {
-       animator.SetBool(BITE_ANIM, true);
-    }
-
 
 }

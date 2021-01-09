@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private string RUN_ANIM = "isRunning";
+    private string WALK_ANIM = "isWalking";
         
     private Animator animator;
     private CharacterController controller;
@@ -27,12 +28,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (move != Vector3.zero)
         {
-            animator.SetBool(RUN_ANIM, true);
+            animator.SetBool(WALK_ANIM, true);
             gameObject.transform.forward = move;
         }
         else
         {
-            animator.SetBool(RUN_ANIM, false);
+            animator.SetBool(WALK_ANIM, false);
         }
     }
 }
