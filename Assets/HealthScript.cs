@@ -4,19 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 public class HealthScript : MonoBehaviour
 {
-   // public Player player;
+    // public Player player;
+    private int health = 100;
     public Text healthText;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        //healthText = "HEALTH: " + player.GetHealth().ToString();
+        healthText.text = "HEALTH: " + health;
     }
+
+
 }
