@@ -5,6 +5,8 @@ using UnityEngine;
 public class BOT_Script : MonoBehaviour
 {
     private string RUN_ANIM = "isRunning";
+    private string WALK_ANIM = "isWalking";
+    private string BITE_ANIM = "isBitable";
     [SerializeField] Transform[] wayPoints;
     private Transform target;
     private float target_distance;
@@ -14,7 +16,7 @@ public class BOT_Script : MonoBehaviour
     private int wayPointIndex;
     private float distance;
 
-    [SerializeField] CharacterController controller;
+    //[SerializeField] CharacterController controller;
 
     public float playerSpeed = 2.0f;
     private Animator animator;
@@ -23,7 +25,7 @@ public class BOT_Script : MonoBehaviour
     {   
         //Get the transform of the player
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        detect_range = 4f;
+        detect_range = 10f;
         isChasing = false;
 
         animator = GetComponent<Animator>();
@@ -50,7 +52,7 @@ public class BOT_Script : MonoBehaviour
 
     private void Patrol()
     {
-        animator.SetBool(RUN_ANIM, true);
+        animator.SetBool(WALK_ANIM, true);
         transform.Translate(Vector3.forward * playerSpeed * Time.deltaTime);
     }
 
@@ -70,8 +72,28 @@ public class BOT_Script : MonoBehaviour
         if(target_distance <= detect_range)
         {
             isChasing = true;
-            transform.LookAt(target);
-            transform.Translate(Vector3.forward * playerSpeed * Time.deltaTime);
+            if (target_distance <= 2)
+            {
+                In_Range_Bite(target_distance);
+            }
+            else
+            {
+                transform.LookAt(target);
+                animator.SetBool(RUN_ANIM, true);
+                transform.Translate(Vector3.forward * playerSpeed * Time.deltaTime);
+            }
         }
+        else
+        {
+            isChasing = false;
+        }
+
     }
+
+    private void In_Range_Bite(float target_distance)
+    {
+       animator.SetBool(BITE_ANIM, true);
+    }
+
+
 }

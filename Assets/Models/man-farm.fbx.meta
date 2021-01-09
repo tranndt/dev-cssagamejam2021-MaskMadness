@@ -1,12 +1,34 @@
 fileFormatVersion: 2
-guid: dd82583c50ab2f7449ba10e8f2d6a387
+guid: 1d2a4f9bf1abcae40a7fb83d0d0898e5
 ModelImporter:
   serializedVersion: 19301
-  internalIDToNameTable:
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      74: -203655887218126122
-    second: mixamo.com
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12 BROWN
+    second: {fileID: 2100000, guid: d07dc9a550022a74792d211f343e0b16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 BROWN-LIGHT
+    second: {fileID: 2100000, guid: 3193cf6cf65b8a748b1a843c78e6c26d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 BROWN-LIGHTEST
+    second: {fileID: 2100000, guid: a7862d5615928c34e868320de65c2777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 42 BLUE-DARK
+    second: {fileID: 2100000, guid: b064f99cf70b44e47a02b3c08c5bafb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6 SKIN-LIGHTEST
+    second: {fileID: 2100000, guid: d8b3608c06351da4f8e09a879c0ddc66, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
