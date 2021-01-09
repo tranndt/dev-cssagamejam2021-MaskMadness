@@ -11,22 +11,6 @@ public class Player_Animation_Script : MonoBehaviour
 
 
 
-
-    public void Run()
-    {
-        animator.SetBool(RUN_ANIM, true);
-    }
-
-
-
-
-
-
-
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
