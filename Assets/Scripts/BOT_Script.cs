@@ -6,19 +6,26 @@ public class BOT_Script : MonoBehaviour
 {
     private string RUN_ANIM = "isRunning";
     [SerializeField] Transform[] wayPoints;
+    private Transform target;
+    private float target_distance;
+    public float detect_range;
+    private bool isChasing;
+
     private int wayPointIndex;
     private float distance;
 
-    //    animator = GetComponent<Animator>();
     [SerializeField] CharacterController controller;
-    private Vector3 playerVelocity;
-    private bool groundedPlayer;
-    private float playerSpeed = 2.0f;
+
+    public float playerSpeed = 2.0f;
     private Animator animator;
 
     private void Start()
-    {
-        //controller = gameObject.AddComponent<CharacterController>();
+    {   
+        //Get the transform of the player
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+        detect_range = 4f;
+        isChasing = false;
+
         animator = GetComponent<Animator>();
         wayPointIndex = 0;
         transform.LookAt(wayPoints[wayPointIndex].position);
@@ -28,29 +35,17 @@ public class BOT_Script : MonoBehaviour
     {
         distance = Vector3.Distance(transform.position, wayPoints[wayPointIndex].position);
 
-        if (distance < 1f)
-        {
-            IncreaseIndex();
-        }
-        Patrol();
-        //Move_BOT(distance);
-    }
+        Detection();
 
-    public void Move_BOT()
-    {
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-
-        controller.Move(move * Time.deltaTime * playerSpeed);
-
-        if (move != Vector3.zero)
+        if (!isChasing)
         {
-            animator.SetBool(RUN_ANIM, true);
-            gameObject.transform.forward = move;
+            if (distance < 1f)
+            {
+                IncreaseIndex();
+            }
+            Patrol();
         }
-        else
-        {
-            animator.SetBool(RUN_ANIM, false);
-        }
+
     }
 
     private void Patrol()
@@ -67,5 +62,16 @@ public class BOT_Script : MonoBehaviour
             wayPointIndex = 0;
         }
         transform.LookAt(wayPoints[wayPointIndex].position);
+    }
+
+    private void Detection()
+    {
+        target_distance = Vector3.Distance(target.position, transform.position);
+        if(target_distance <= detect_range)
+        {
+            isChasing = true;
+            transform.LookAt(target);
+            transform.Translate(Vector3.forward * playerSpeed * Time.deltaTime);
+        }
     }
 }
