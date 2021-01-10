@@ -13,4 +13,9 @@ public class TaskSript : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public void SetItUp()
+    {
+        gameObject.SetActive(true);
+    }
+
 }
