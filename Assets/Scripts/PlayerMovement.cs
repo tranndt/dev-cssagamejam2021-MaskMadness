@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        //controller = gameObject.AddComponent<CharacterController>();
         animator = GetComponent<Animator>();
     }
 

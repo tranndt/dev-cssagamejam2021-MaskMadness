@@ -24,7 +24,6 @@ public class Mask_Attributes : MonoBehaviour
     private void Awake()
     {
         protect_value = rnd.Next(15, 60);
-        Debug.Log(protect_value);
     }
 
     // Update is called once per frame

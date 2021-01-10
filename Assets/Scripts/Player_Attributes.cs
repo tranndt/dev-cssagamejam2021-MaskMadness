@@ -15,8 +15,6 @@ public class Player_Attributes : MonoBehaviour
 
     private Animator animator;
 
-
-
     public float Get_Immute()
     {
         return immute;
