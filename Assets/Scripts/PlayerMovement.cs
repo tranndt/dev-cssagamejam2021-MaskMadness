@@ -63,21 +63,4 @@ public class PlayerMovement : MonoBehaviour
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
     }
-
-    //private void OnTriggerEnter(Collider collider)
-    //{
-    //    if(collider.gameObject.layer == 15)
-    //    {
-    //        Debug.Log("Mask picked up");
-    //        FindObjectOfType<AudioManager>().Play("pickup");
-    //        GameObject mask_object = collider.gameObject;
-    //        if(mask_object != null)
-    //        {
-    //            var mask = mask_object.GetComponent<Mask_Attributes>();
-    //            value += mask.Get_Value();
-    //        }
-            
-    //        Destroy(collider.gameObject);
-    //    }
-    //}
 }

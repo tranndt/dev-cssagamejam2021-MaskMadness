@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class Player_Attributes : MonoBehaviour
 {
-
+    private string DEAD_ANIM = "isDead";
     private float immute;
     private float mask;
     MaskBarScript maskBar;
     ISBarScript immuteBar;
+    private bool isDead;
 
     GameObject finder;
+
+    private Animator animator;
+
 
 
     public float Get_Immute()
@@ -28,6 +32,9 @@ public class Player_Attributes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        isDead = false;
+        animator = GetComponent<Animator>();
+
         finder = GameObject.Find("MASK");
         maskBar = (MaskBarScript)finder.GetComponent(typeof(MaskBarScript));
 
@@ -50,7 +57,13 @@ public class Player_Attributes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Play_Sound();
+        if (!isDead)
+        {
+            CheckDead();
+            Play_Sound();
+            Debug.Log("WAS");
+        }
+        
     }
 
     private void OnTriggerEnter(Collider collider)
@@ -83,8 +96,6 @@ public class Player_Attributes : MonoBehaviour
         {
             immute -= 8f;
             immuteBar.SetIm(immute);
-
-
             //play hurt sound
         }
 
@@ -124,5 +135,14 @@ public class Player_Attributes : MonoBehaviour
         }
         maskBar.SetMask(mask);
         immuteBar.SetIm(immute);
+    }
+
+    private void CheckDead()
+    {
+        if (immute <= 0)
+        {
+            animator.SetBool(DEAD_ANIM, true);
+            isDead = true;
+        }
     }
 }
