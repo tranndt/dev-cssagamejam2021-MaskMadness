@@ -5,7 +5,7 @@ using System;
 
 public class Patrol_Script : MonoBehaviour
 {
-    private string RUN_ANIM = "isRunning";
+    //private string RUN_ANIM = "isRunning";
     private string WALK_ANIM = "isWalking";
     [SerializeField] Transform[] wayPoints;
     private System.Random rnd = new System.Random();
