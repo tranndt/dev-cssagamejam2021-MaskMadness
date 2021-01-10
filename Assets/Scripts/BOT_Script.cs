@@ -75,6 +75,10 @@ public class BOT_Script : MonoBehaviour
             if (target_distance <= 1.3)
             {
                 In_Range_Bite(target_distance);
+                if (!FindObjectOfType<AudioManager>().isPlaying("nomnom"))
+                {
+                    FindObjectOfType<AudioManager>().Play("nomnom");
+                }
             }
             else
             {
@@ -91,6 +95,8 @@ public class BOT_Script : MonoBehaviour
         }
 
     }
+
+
 
     private void In_Range_Bite(float target_distance)
     {

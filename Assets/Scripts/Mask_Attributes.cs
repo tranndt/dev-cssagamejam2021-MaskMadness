@@ -9,10 +9,6 @@ public class Mask_Attributes : MonoBehaviour
     private System.Random rnd = new System.Random();
     [SerializeField] float protect_value;
 
-    //
-    float angle = 360.0f; // Degree per time unit
-    Vector3 axis = Vector3.up; // Rotation axis, here it the yaw axis
-
     public float Get_Value()
     {   
         return protect_value;

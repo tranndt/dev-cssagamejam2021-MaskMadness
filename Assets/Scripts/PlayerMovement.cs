@@ -70,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
         if(collider.gameObject.layer == 15)
         {
             Debug.Log("Mask picked up");
+            FindObjectOfType<AudioManager>().Play("pickup");
             GameObject mask_object = collider.gameObject;
             if(mask_object != null)
             {
