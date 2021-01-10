@@ -7,13 +7,13 @@ public class ISBarScript : MonoBehaviour
 {
     [SerializeField] Slider slider;
 
-    public void SetMaxImSys(int systemLevel)
+    public void SetMaxImSys(float systemLevel)
     {
         slider.maxValue = systemLevel;
         slider.value = systemLevel;
     }
 
-    public void SetIm(int systemLevel)
+    public void SetIm(float systemLevel)
     {
         slider.value = systemLevel;
     }

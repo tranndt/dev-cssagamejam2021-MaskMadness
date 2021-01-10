@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     {
         //controller = gameObject.AddComponent<CharacterController>();
         animator = GetComponent<Animator>();
-
     }
 
     private void Update()
@@ -65,20 +64,20 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(playerVelocity * Time.deltaTime);
     }
 
-    private void OnTriggerEnter(Collider collider)
-    {
-        if(collider.gameObject.layer == 15)
-        {
-            Debug.Log("Mask picked up");
-            FindObjectOfType<AudioManager>().Play("pickup");
-            GameObject mask_object = collider.gameObject;
-            if(mask_object != null)
-            {
-                var mask = mask_object.GetComponent<Mask_Attributes>();
-                value += mask.Get_Value();
-            }
+    //private void OnTriggerEnter(Collider collider)
+    //{
+    //    if(collider.gameObject.layer == 15)
+    //    {
+    //        Debug.Log("Mask picked up");
+    //        FindObjectOfType<AudioManager>().Play("pickup");
+    //        GameObject mask_object = collider.gameObject;
+    //        if(mask_object != null)
+    //        {
+    //            var mask = mask_object.GetComponent<Mask_Attributes>();
+    //            value += mask.Get_Value();
+    //        }
             
-            Destroy(collider.gameObject);
-        }
-    }
+    //        Destroy(collider.gameObject);
+    //    }
+    //}
 }
