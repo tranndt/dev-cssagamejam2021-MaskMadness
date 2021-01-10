@@ -21,7 +21,7 @@ public class Patrol_Script : MonoBehaviour
 
     private void Start()
     { 
-        playerSpeed = rnd.Next(2, 35);
+        playerSpeed = rnd.Next(3, 7);
         animator = GetComponent<Animator>();
         wayPointIndex = 0;
         transform.LookAt(wayPoints[wayPointIndex].position);

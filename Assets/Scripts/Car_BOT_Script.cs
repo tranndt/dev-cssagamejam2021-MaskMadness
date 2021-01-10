@@ -7,10 +7,12 @@ public class Car_BOT_Script : MonoBehaviour
     [SerializeField] Transform[] wayPoints;
     private int wayPointIndex;
     private float distance;
-
+    private Vector3 playerVelocity;
+    private bool groundedPlayer;
+    [SerializeField] CharacterController controller;
+    private float gravityValue = -9.81f;
 
     public float playerSpeed = 2.0f;
-
 
     private void Start()
     {        
@@ -20,6 +22,13 @@ public class Car_BOT_Script : MonoBehaviour
 
     void Update()
     {
+
+        groundedPlayer = controller.isGrounded;
+        if (groundedPlayer && playerVelocity.y < 0)
+        {
+            playerVelocity.y = 0f;
+        }
+
         distance = Vector3.Distance(transform.position, wayPoints[wayPointIndex].position);
 
         if (distance < 1f)
@@ -27,7 +36,9 @@ public class Car_BOT_Script : MonoBehaviour
             IncreaseIndex();
         }
         Patrol();
-        //Move_BOT(distance);
+
+        playerVelocity.y += gravityValue * Time.deltaTime;
+        controller.Move(playerVelocity * Time.deltaTime);
     }
 
 

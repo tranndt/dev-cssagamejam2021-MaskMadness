@@ -72,7 +72,7 @@ public class BOT_Script : MonoBehaviour
         if(target_distance <= detect_range)
         {
             isChasing = true;
-            if (target_distance <= 1)
+            if (target_distance <= 2)
             {
                 In_Range_Bite(target_distance);
             }
