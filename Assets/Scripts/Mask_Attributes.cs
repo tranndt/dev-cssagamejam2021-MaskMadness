@@ -11,7 +11,6 @@ public class Mask_Attributes : MonoBehaviour
 
     //
     float angle = 360.0f; // Degree per time unit
-    float time = 1.0f; // Time unit in sec
     Vector3 axis = Vector3.up; // Rotation axis, here it the yaw axis
 
     public float Get_Value()

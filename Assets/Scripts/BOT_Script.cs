@@ -25,7 +25,7 @@ public class BOT_Script : MonoBehaviour
     {   
         //Get the transform of the player
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        detect_range = 10f;
+        detect_range = 8f;
         isChasing = false;
 
         animator = GetComponent<Animator>();
