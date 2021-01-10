@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    void Update()
+    private void Update()
     {   
         groundedPlayer = controller.isGrounded;
         if (groundedPlayer && playerVelocity.y < 0)
@@ -61,5 +61,14 @@ public class PlayerMovement : MonoBehaviour
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        if(collider.gameObject.layer == 15)
+        {
+            Debug.Log("Mask picked up");
+            Destroy(collider.gameObject);
+        }
     }
 }
