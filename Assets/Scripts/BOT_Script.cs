@@ -72,13 +72,14 @@ public class BOT_Script : MonoBehaviour
         if(target_distance <= detect_range)
         {
             isChasing = true;
-            if (target_distance <= 2)
+            if (target_distance <= 1.3)
             {
                 In_Range_Bite(target_distance);
             }
             else
             {
                 transform.LookAt(target);
+                animator.SetBool(BITE_ANIM, false);
                 animator.SetBool(RUN_ANIM, true);
                 transform.Translate(Vector3.forward * playerSpeed * Time.deltaTime);
             }
@@ -86,6 +87,7 @@ public class BOT_Script : MonoBehaviour
         else
         {
             isChasing = false;
+            animator.SetBool(BITE_ANIM, false);
         }
 
     }
