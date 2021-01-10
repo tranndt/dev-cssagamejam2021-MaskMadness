@@ -28,7 +28,6 @@ public class Player_Attributes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         finder = GameObject.Find("MASK");
         maskBar = (MaskBarScript)finder.GetComponent(typeof(MaskBarScript));
 
@@ -44,15 +43,15 @@ public class Player_Attributes : MonoBehaviour
         maskBar.SetMask(mask);
         immuteBar.SetIm(immute);
 
+        InvokeRepeating("Endurance", 1f, 1f);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Play_Sound();
     }
-
-
 
     private void OnTriggerEnter(Collider collider)
     {
@@ -67,8 +66,63 @@ public class Player_Attributes : MonoBehaviour
                 mask += maskObj.Get_Value();
                 maskBar.SetMask(mask);
             }
-
             Destroy(collider.gameObject);
         }
+    }
+
+    public void Attacked()
+    {
+        if (mask >0)
+        {
+            mask -= 7f;
+            maskBar.SetMask(mask);
+
+            //play laugh sound
+        }
+        else
+        {
+            immute -= 8f;
+            immuteBar.SetIm(immute);
+
+
+            //play hurt sound
+        }
+
+        if(mask == 0 && immute >=90f)
+        {
+            if (!FindObjectOfType<AudioManager>().isPlaying("ohshit"))
+            {
+                FindObjectOfType<AudioManager>().Play("ohshit");
+            }
+        }
+    }
+
+    private void Play_Sound()
+    {
+        if (mask >0)
+        {
+
+        }
+        else
+        {
+            if (!FindObjectOfType<AudioManager>().isPlaying("cough"))
+            {
+                FindObjectOfType<AudioManager>().Play("cough");
+            }
+        }
+    }
+
+    private void Endurance()
+    {
+        if (mask >= 0)
+        {
+            mask -= 2f;
+        }
+        else
+        {
+            immute -= 4f;
+        }
+        maskBar.SetMask(mask);
+        immuteBar.SetIm(immute);
     }
 }

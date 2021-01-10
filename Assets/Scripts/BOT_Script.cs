@@ -21,8 +21,14 @@ public class BOT_Script : MonoBehaviour
     public float playerSpeed = 2.0f;
     private Animator animator;
 
+    GameObject player;
+    Player_Attributes the_player;
+
     private void Start()
-    {   
+    {
+        player = GameObject.Find("Player");
+        the_player = (Player_Attributes)player.GetComponent(typeof(Player_Attributes));
+
         //Get the transform of the player
         target = GameObject.FindGameObjectWithTag("Player").transform;
         detect_range = 8f;
@@ -36,9 +42,7 @@ public class BOT_Script : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(transform.position, wayPoints[wayPointIndex].position);
-
         Detection();
-
         if (!isChasing)
         {
             if (distance < 1f)
@@ -47,7 +51,6 @@ public class BOT_Script : MonoBehaviour
             }
             Patrol();
         }
-
     }
 
     private void Patrol()
@@ -78,6 +81,7 @@ public class BOT_Script : MonoBehaviour
                 if (!FindObjectOfType<AudioManager>().isPlaying("nomnom"))
                 {
                     FindObjectOfType<AudioManager>().Play("nomnom");
+                    the_player.Attacked();
                 }
             }
             else
@@ -93,15 +97,10 @@ public class BOT_Script : MonoBehaviour
             isChasing = false;
             animator.SetBool(BITE_ANIM, false);
         }
-
     }
-
-
 
     private void In_Range_Bite(float target_distance)
     {
        animator.SetBool(BITE_ANIM, true);
     }
-
-
 }
