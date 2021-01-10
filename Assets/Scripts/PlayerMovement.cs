@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private float gravityValue = -9.81f;
     private Animator animator;
 
+    [SerializeField] float value;
+
     private void Start()
     {
         //controller = gameObject.AddComponent<CharacterController>();
@@ -68,6 +70,13 @@ public class PlayerMovement : MonoBehaviour
         if(collider.gameObject.layer == 15)
         {
             Debug.Log("Mask picked up");
+            GameObject mask_object = collider.gameObject;
+            if(mask_object != null)
+            {
+                var mask = mask_object.GetComponent<Mask_Attributes>();
+                value += mask.Get_Value();
+            }
+            
             Destroy(collider.gameObject);
         }
     }
