@@ -34,6 +34,7 @@ public class Player_Animation_Fix : MonoBehaviour
         foreach(string anim in animation_list)
         {
             animator.SetBool(anim, false);
+            
         }
     }
 
