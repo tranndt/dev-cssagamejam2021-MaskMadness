@@ -21,7 +21,13 @@ public class Player_Movement_Script_New : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
+    {
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            Base_Behaviour instant = Base_Behaviour.Get_Instance();
+            instant.Getspitted();
+        }
         //Currently move with walking speed
         //MovePlayer(speed);
     }
