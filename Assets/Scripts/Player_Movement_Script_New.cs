@@ -28,8 +28,6 @@ public class Player_Movement_Script_New : MonoBehaviour
             Base_Behaviour instant = Base_Behaviour.Get_Instance();
             instant.Getspitted();
         }
-        //Currently move with walking speed
-        //MovePlayer(speed);
     }
 
     public void MovePlayer(float moveSpeed)
