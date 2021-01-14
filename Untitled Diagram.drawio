@@ -1,1 +1,340 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T17:44:45.909Z" agent="5.0 (Windows)" version="14.2.2" etag="LKBvW84Dw3hYqJZJAgiX" type="github"><diagram id="yx-DEh3mafyq6rKC4UoP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-14T17:45:35.933Z" agent="5.0 (Windows)" etag="-lwCO0esuinGJwazLwLi" version="14.2.2" type="github">
+  <diagram id="yx-DEh3mafyq6rKC4UoP" name="Page-1">
+    <mxGraphModel dx="5200" dy="3175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-1" value="" style="group;container=0;strokeColor=#666666;fontColor=#333333;fillColor=#BAC8D3;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1610" y="80" width="1070" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-2" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-790" y="70" width="650" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-2">
+          <mxGeometry width="650" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-4" value="&lt;h1&gt;MainGame&lt;/h1&gt;&lt;div&gt;In charge of the global aspects for the game&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;GameOver&lt;/b&gt;:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Are all Tasks finished? (TaskManager)&lt;/li&gt;&lt;li&gt;Is the Player dead? (Player)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Start/Pause/Resume Game&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Score&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Difficulty&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;(Later versions) Mode: &lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-2">
+          <mxGeometry x="23.210416666666667" y="11.2" width="599.70625" height="254.79999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="710" y="80" width="820" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-6" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-5">
+          <mxGeometry width="820" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-7" value="&lt;h1&gt;Collectible&lt;/h1&gt;&lt;div&gt;Objects that player can collect to stay alive or fulfill tasks&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;- Healing Value: How much IS does this recover for you" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-5">
+          <mxGeometry x="43.1601941328731" y="39.61538461538461" width="612.7333261432268" height="158.46153846153848" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-8" value="" style="group" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-5">
+          <mxGeometry x="21.578947368421055" y="198.07692307692307" width="388.42105263157896" height="779.1025641025641" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-8">
+          <mxGeometry width="366.8421052631579" height="779.1025641025641" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-10" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-8">
+          <mxGeometry x="32.36842105263158" y="488.5897435897436" width="302.10526315789474" height="264.1025641025641" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-11" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-10">
+          <mxGeometry width="302.1052631578948" height="264.1025641025641" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-12" value="&lt;h1&gt;Vaccine : Collectible&lt;/h1&gt;&lt;div&gt;The rarest collectible&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;You may win the round if found the vaccine? or&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Provides with large amount of immunity (Like a superpowerful mask with Durability = infinite and Duration &amp;gt;&amp;gt;)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-10">
+          <mxGeometry x="10.78767543859649" y="10.56410256410256" width="278.7298684210527" height="240.3333333333333" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-13" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-8">
+          <mxGeometry x="32.36842105263158" y="198.07692307692307" width="309.81973684210527" height="250.89743589743588" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-14" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-13">
+          <mxGeometry width="309.81973684210527" height="250.89743589743588" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-15" value="&lt;h1&gt;Mask : Collectible&lt;/h1&gt;&lt;div&gt;&lt;div&gt;Healing Value = 0 but can protect the player IS. Will be off when either durability or duration = 0&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Durability&lt;/b&gt;: reduces as player comes into close contact with an infected agent (i.e. &quot;taking a hit&quot; for the player)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Duration&lt;/b&gt;: Mask will lose its effect after a fixed amount of time (e.g. 15s)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-13">
+          <mxGeometry x="11.063146436403509" y="10.035897435897436" width="285.84743470394733" height="228.31666666666663" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-16" value="&lt;p style=&quot;font-size: 22px&quot;&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Preventative Collectibles&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Healing Value = 0 but protect your IS&lt;b&gt;. To be used immediate, cannot be stored&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-8">
+          <mxGeometry x="32.36842105263158" y="39.61538461538461" width="291.3157894736842" height="118.84615384615384" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-17" value="" style="group" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-5">
+          <mxGeometry x="410" y="198.07692307692307" width="388.42105263157896" height="779.1025641025641" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-17">
+          <mxGeometry width="388.42105263157896" height="779.1025641025641" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-19" value="&lt;h1&gt;Regular Collectibles&lt;/h1&gt;&lt;div&gt;Objects that the player can pick up, that might have healing power&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-17">
+          <mxGeometry x="32.36842105263158" y="39.61538461538461" width="356.0526315789474" height="118.84615384615384" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-20" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-17">
+          <mxGeometry x="32.36842105263158" y="211.28205128205127" width="334.4736842105263" height="145.25641025641025" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-21" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-20">
+          <mxGeometry width="334.47368421052636" height="145.25641025641028" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-22" value="&lt;h1&gt;Medication : Collectible&lt;/h1&gt;&lt;div&gt;Rare kind of collectible with great healing powe&lt;b&gt;r&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-20">
+          <mxGeometry x="11.943497807017545" y="5.810256410256408" width="308.59378289473693" height="132.18333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-23" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-17">
+          <mxGeometry x="32.36842105263158" y="382.94871794871796" width="334.4736842105263" height="145.25641025641025" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-23">
+          <mxGeometry width="334.47368421052636" height="145.25641025641025" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-25" value="&lt;h1&gt;Grocery : Collectible&lt;/h1&gt;&lt;div&gt;&lt;div&gt;Things like Milk, Bread, Eggs...&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-23">
+          <mxGeometry x="11.943497807017547" y="5.810256410256411" width="308.5937828947369" height="132.18333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-26" value="" style="group;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-50" y="70" width="680" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-27" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-26">
+          <mxGeometry width="680" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-28" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-26">
+          <mxGeometry x="355.69230769230774" y="161.32530120481928" width="292.92307692307696" height="223.37349397590364" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-29" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-28">
+          <mxGeometry width="292.923076923077" height="223.37349397590364" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-30" value="&lt;h1&gt;Player.Movement&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Direction&lt;/b&gt;: relative to the current perspective (camera)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Speed&lt;/b&gt;: Normal vs. Running vs. Carrying Objects (Slower the more objects carrying?)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-28">
+          <mxGeometry x="10.459794871794871" y="8.934939759036142" width="270.2581538461539" height="203.26987951807223" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-31" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-26">
+          <mxGeometry x="31.384615384615387" y="421.9277108433735" width="303.3846153846154" height="285.421686746988" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-32" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-31">
+          <mxGeometry width="303.38461538461553" height="285.421686746988" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-33" value="&lt;h1&gt;Player.ImmunityScore&lt;/h1&gt;&lt;div&gt;Player&#39;s Health basically. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Decreases &lt;/b&gt;with negative events (Car/Bot)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Unchanged&lt;/b&gt; when mask is on&lt;/li&gt;&lt;li&gt;&lt;b&gt;Increases &lt;/b&gt;when Vaccine is collected. (Or may be when the player try to trade off [any object collected] for health)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-31">
+          <mxGeometry x="10.833358974358974" y="11.41686746987952" width="279.91023076923085" height="259.7337349397591" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-34" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-26">
+          <mxGeometry x="355.69230769230774" y="419.5822891566265" width="292.92307692307696" height="287.7671084337349" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-35" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-34">
+          <mxGeometry width="292.923076923077" height="287.76710843373485" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-36" value="&lt;h1&gt;Player.Mask&lt;/h1&gt;&lt;div&gt;Protects the player IS. Will be off when either durability or duration = 0&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Durability&lt;/b&gt;: reduces as player comes into close contact with an infected agent (i.e. &quot;taking a hit&quot; for the player)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Duration&lt;/b&gt;: Mask will lose its effect after a fixed amount of time (e.g. 15s)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;A player may only have 1 mask at any time&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-34">
+          <mxGeometry x="10.459794871794871" y="11.5106843373494" width="270.2581538461539" height="261.8680686746988" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-37" value="&lt;h1&gt;Player&lt;/h1&gt;&lt;div&gt;Try to stay away from COVID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-26">
+          <mxGeometry x="34.36615384615387" y="12.409638554216867" width="188.30769230769232" height="198.55421686746988" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-38" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-26">
+          <mxGeometry x="34.36615384615387" y="161.32530120481928" width="300.4030769230769" height="223.37349397590364" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-39" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-38">
+          <mxGeometry width="300.4030769230769" height="223.37349397590364" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-40" value="&lt;h1&gt;Player.Camera&lt;/h1&gt;&lt;div&gt;Provide a cinematic, quasi- first-person perspective&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-38">
+          <mxGeometry x="10.726893205128206" y="8.934939759036144" width="277.15938884615383" height="203.26987951807226" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-41" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-26">
+          <mxGeometry x="31.38615384615387" y="744.578313253012" width="300.4030769230769" height="223.37349397590364" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-42" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-41">
+          <mxGeometry width="300.4030769230769" height="223.37349397590364" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-43" value="&lt;h1&gt;Player.Bag&lt;/h1&gt;&lt;div&gt;A collection of Collectibles that the player have gathered&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-41">
+          <mxGeometry x="10.726893205128206" y="8.934939759036144" width="277.15938884615383" height="203.26987951807226" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-44" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2228.440366972477" y="198.36956521739128" width="343.57798165137615" height="753.2608695652173" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-45" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1835.7798165137615" y="198.36956521739128" width="343.57798165137615" height="753.2608695652173" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-46" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Game Agents&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1642.2472477064218" y="90.11521739130444" width="370.2298165137614" height="97.49347826086954" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-47" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;gradientDirection=west;" vertex="1" parent="1">
+          <mxGeometry x="1639.4495412844037" y="650.3260869565216" width="981.651376146789" height="252.88043478260866" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-48" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1639.4495412844037" y="370.5434782608695" width="981.651376146789" height="247.49999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-49" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1870.1376146788991" y="671.8478260869564" width="274.8623853211009" height="215.21739130434779" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-50" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-49">
+          <mxGeometry width="274.86238532110093" height="215.21739130434779" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-51" value="&lt;h1&gt;AntiMasker&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Is Triggered when&lt;/b&gt;: the player come close (not necessarily within infectious range, can be further)&lt;/div&gt;&lt;div&gt; &lt;b&gt;Objective&lt;/b&gt;: Actively trying to infect the player, through:&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Coming into close contact deliberately (and chasing if necessary)&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Sneezing at the player&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBorderColor=none;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-49">
+          <mxGeometry x="10.629648318042854" y="9.68478260869565" width="253.59490825688073" height="195.84782608695645" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-52" value="&lt;p style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Infectious Agent&lt;/b&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;These agents can directly affect the player&#39;s&lt;br&gt;&lt;/div&gt;IS" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1865.2293577981652" y="230.65217391304347" width="304.3119266055046" height="129.1304347826087" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-53" value="" style="group;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2269.9964220183483" y="669.9978260869564" width="274.8623853211009" height="215.21739130434779" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-54" value="" style="group;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-53">
+          <mxGeometry width="274.8623853211009" height="215.21739130434779" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-55" value="&lt;h1&gt;PoliceOfficer&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Is Triggered when&lt;/b&gt;: the player come close without a mask&lt;br&gt;&lt;/div&gt;&lt;div&gt; &lt;b&gt;Objective&lt;/b&gt;: Chase down the player:&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Will stop chasing when player manage to escape (got out of danger range), or when player manage to equip a Mask&lt;br&gt;&lt;/div&gt;- If player is caught then he gets fined and GameOver&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-53">
+          <mxGeometry x="10.62964831804311" y="12.700869565217374" width="253.5949082568806" height="195.84782608695645" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-56" value="&lt;p style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Non-Infectious Agent&lt;/b&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;No direct effect on the player&#39;s IS&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2257.8899082568805" y="230.65217391304347" width="265.045871559633" height="96.8478260869565" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-57" value="&lt;p style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Simple AI &lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Roam around freely and randomly. Doing neutral things&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1649.2660550458716" y="392.0652173913043" width="157.06422018348624" height="182.93478260869563" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-58" value="&lt;p style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Complex AI&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Have features of Simple AI when idle, &lt;/li&gt;&lt;li&gt;Can chase/challenge the player when triggered&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1649.2660550458716" y="671.8478260869564" width="176.69724770642202" height="182.93478260869563" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1859.999357798165" y="399.9960869565216" width="274.8656574923548" height="182.93478260869574" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-60" value="" style="group;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-59">
+          <mxGeometry width="274.8656574923548" height="182.93478260869577" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-61" value="&lt;h1&gt;Infected Person&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Neutral.&lt;/div&gt;&lt;div&gt;- Just roaming around the streets&lt;/div&gt;&lt;div&gt;- Will infect the player if come into close range&lt;br&gt;&lt;/div&gt;&lt;div&gt;- May randomly sneeze&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-59">
+          <mxGeometry x="10.630749235474468" y="8.234130434782855" width="253.5949082568806" height="166.47065217391298" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-62" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2269.9981651376147" y="399.9960869565216" width="274.8623853211009" height="182.9347826086955" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-63" value="" style="group;fillColor=#e1d5e7;gradientDirection=north;strokeColor=#000000;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-62">
+          <mxGeometry width="274.8623853211009" height="182.93478260869563" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-64" value="&lt;h1&gt;Car&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Neutral.&lt;/div&gt;&lt;div&gt;- Just roaming around the streets&lt;/div&gt;&lt;div&gt;(- May hit the player when come into contact ?)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-62">
+          <mxGeometry x="12.228218759617675" y="12.853260869565474" width="240.0249275324564" height="157.2222826086956" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-65" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-800" y="392.07" width="680" height="787.93" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-66" value="&lt;h1&gt;TaskHandling&lt;/h1&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-773.8066666666666" y="499.99833976833963" width="251.42857142857144" height="127.14954740454738" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-67" value="" style="group;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-464.76190476190476" y="913.391793221793" width="282.8571428571429" height="216.25911625911618" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-68" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-67">
+          <mxGeometry width="282.8571428571429" height="216.25911625911615" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-69" value="&lt;h1&gt;Event&lt;/h1&gt;&lt;p&gt;Basically a collision/trigger between player and another GameObject (Car/Bot/Mask)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Car Events:&lt;/b&gt; Got hit by a car&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Bot Events:&lt;/b&gt; In close contact, touching, being sneezed at.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Collection Events&lt;/b&gt;: Collecting masks/ health/ objects&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-67">
+          <mxGeometry x="16.63865546218488" y="13.106613106613098" width="249.57983193277315" height="196.5991965991964" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-70" value="" style="group;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-464.76190476190476" y="711.7626061776061" width="282.8571428571429" height="143.7582475332475" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-71" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-70">
+          <mxGeometry width="282.8571428571429" height="143.7582475332475" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-72" value="&lt;h1&gt;Task&lt;/h1&gt;&lt;p&gt;A collection of Events.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Check to see if the events composing it are fulfilled&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-70">
+          <mxGeometry x="10.476190476190474" y="8.456367501955736" width="261.9047619047618" height="126.845512529336" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-73" value="" style="group;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-464.76190476190476" y="534.9383397683397" width="282.8571428571429" height="135.302516087516" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-74" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-73">
+          <mxGeometry width="282.8571428571429" height="135.30251608751607" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-75" value="&lt;h1&gt;TaskManager&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Track all player Tasks&lt;/li&gt;&lt;li&gt;Signal to MainGame once all tasks are done&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-73">
+          <mxGeometry x="10.100357142857142" y="5.412100643500644" width="260.9710714285714" height="123.12528963963963" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9jHa-yjWCjIx_G0f_6F6-72" target="9jHa-yjWCjIx_G0f_6F6-74">
+          <mxGeometry x="-800" y="399.8412698412699" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9jHa-yjWCjIx_G0f_6F6-80" target="9jHa-yjWCjIx_G0f_6F6-71">
+          <mxGeometry x="-800" y="399.8412698412699" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9jHa-yjWCjIx_G0f_6F6-68" target="9jHa-yjWCjIx_G0f_6F6-80">
+          <mxGeometry x="-800" y="399.8412698412699" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-79" value="" style="group;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-768.5714285714286" y="913.391793221793" width="240.95238095238096" height="210.917516087516" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-80" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-79">
+          <mxGeometry width="240.95238095238096" height="210.91751608751596" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-81" value="&lt;h1&gt;EventManager&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Track all events that happen to the player&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-79">
+          <mxGeometry x="13.386243386243386" y="15.065536863393998" width="209.7178130511464" height="188.31921079242497" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-82" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-820" y="1440" width="1092.92" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-83" value="&lt;h1&gt;Animation &amp;amp; Sound Effects&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Try to stay away from COVID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-785.63" y="1449.6522222222222" width="335.63" height="154.42777777777778" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-84" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-467.01" y="1572.2222222222222" width="300.4" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-85" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-84">
+          <mxGeometry width="300.4" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-86" value="&lt;h1&gt;Strolling&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-84">
+          <mxGeometry x="10.726783333333334" y="2.7999999999999994" width="277.15655" height="63.69999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-87" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-145.69000000000005" y="1572.2222222222222" width="292.92" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-88" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-87">
+          <mxGeometry width="292.9200000000001" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-89" value="&lt;h1&gt;Walking&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-87">
+          <mxGeometry x="10.459684999999999" y="2.799999999999999" width="270.255315" height="63.699999999999974" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-90" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-464.03000000000003" y="1797.7777777777778" width="300.4" height="137.47222222222223" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-91" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-90">
+          <mxGeometry width="300.4" height="137.47222222222223" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-92" value="&lt;h1&gt;Coughing&lt;/h1&gt;&lt;div&gt;- Can be once or multiple times&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Moderate amount of particles/ splash, short distance&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-90">
+          <mxGeometry x="10.726783333333334" y="5.498888888888889" width="277.15655" height="125.0997222222222" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-93" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-145.68999999999994" y="1795.2033333333334" width="292.92" height="140.04666666666668" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-94" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-93">
+          <mxGeometry width="292.9200000000001" height="140.04666666666665" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-95" value="&lt;h1&gt;Sneezing&lt;/h1&gt;&lt;div&gt;- Once&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Intense amount of particle/ splash, longer distance&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-93">
+          <mxGeometry x="10.459684999999999" y="5.60186666666667" width="270.255315" height="127.44246666666672" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-96" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-468.5" y="1961.111111111111" width="303.38" height="77.77777777777779" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-97" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-96">
+          <mxGeometry width="303.3800000000001" height="77.77777777777779" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-98" value="&lt;h1&gt;Carrying Disease&lt;/h1&gt;&lt;div&gt;- Displayed as a cloud of tiny green particles &lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-96">
+          <mxGeometry x="10.833194166666665" y="3.1111111111111125" width="279.9059725" height="70.77777777777779" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-99" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-467.01" y="1665.5555555555557" width="303.38" height="62.22222222222222" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-100" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-99">
+          <mxGeometry width="303.3800000000001" height="62.22222222222222" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-101" value="&lt;h1&gt;Running&lt;/h1&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-99">
+          <mxGeometry x="10.833194166666665" y="2.4888888888888894" width="279.9059725" height="56.62222222222222" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-102" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-145.69000000000005" y="1665.5555555555557" width="292.92" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-103" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-102">
+          <mxGeometry width="292.9200000000001" height="69.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-104" value="&lt;h1&gt;Standing (Breathing)&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-102">
+          <mxGeometry x="10.459684999999999" y="2.799999999999999" width="270.255315" height="63.699999999999974" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-105" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-145.69000000000005" y="1961.111111111111" width="292.92" height="85.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-106" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-105">
+          <mxGeometry width="292.9200000000001" height="85.55555555555553" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-107" value="&lt;h1&gt;Gettting Hit (Infected)&lt;br&gt;&lt;/h1&gt;&lt;div&gt;- Player flashes anytime it got hit&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-105">
+          <mxGeometry x="10.46" y="3.4210818616016883" width="270.26" height="77.35446209288263" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-108" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-467.01" y="2085.56" width="292.92" height="124.44" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-109" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-108">
+          <mxGeometry width="292.9200000000001" height="124.43999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-110" value="&lt;h1&gt;Low Immunity Score&lt;br&gt;&lt;/h1&gt;&lt;div&gt;The lower the Immunity Score:&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Player turns green-er&lt;/div&gt;&lt;div&gt;- Coughing sounds more frequent&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-108">
+          <mxGeometry x="10.46" y="4.975941352882373" width="270.26" height="112.51156281239588" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
