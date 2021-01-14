@@ -8,13 +8,11 @@ public class Path : MonoBehaviour
     [SerializeField] Color pathColor;
     private List<Transform> nodes = new List<Transform>();
 
-
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = pathColor;
         Transform[] pathTransforms = GetComponentsInChildren<Transform>();
         nodes = new List<Transform>();
-
 
         for(int i = 0; i < pathTransforms.Length; i++)
         {
