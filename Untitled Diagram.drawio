@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T17:45:35.933Z" agent="5.0 (Windows)" etag="-lwCO0esuinGJwazLwLi" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T18:26:26.256Z" agent="5.0 (Windows)" etag="vPToN0hwH92w1d087m3T" version="14.2.2" type="github">
   <diagram id="yx-DEh3mafyq6rKC4UoP" name="Page-1">
-    <mxGraphModel dx="5200" dy="3175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3317" dy="1411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-11" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-10">
           <mxGeometry width="302.1052631578948" height="264.1025641025641" as="geometry" />
         </mxCell>
-        <mxCell id="9jHa-yjWCjIx_G0f_6F6-12" value="&lt;h1&gt;Vaccine : Collectible&lt;/h1&gt;&lt;div&gt;The rarest collectible&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;You may win the round if found the vaccine? or&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Provides with large amount of immunity (Like a superpowerful mask with Durability = infinite and Duration &amp;gt;&amp;gt;)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-10">
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-12" value="&lt;h1&gt;Vaccine : Collectible&lt;/h1&gt;&lt;div&gt;The rarest collectible&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;(You may win the round if found the vaccine? or)&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Provides with large amount of shield (Like a superpowerful mask with Durability = infinite and Duration &amp;gt;&amp;gt;)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-10">
           <mxGeometry x="10.78767543859649" y="10.56410256410256" width="278.7298684210527" height="240.3333333333333" as="geometry" />
         </mxCell>
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-13" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-8">
@@ -121,7 +121,7 @@
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-39" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-38">
           <mxGeometry width="300.4030769230769" height="223.37349397590364" as="geometry" />
         </mxCell>
-        <mxCell id="9jHa-yjWCjIx_G0f_6F6-40" value="&lt;h1&gt;Player.Camera&lt;/h1&gt;&lt;div&gt;Provide a cinematic, quasi- first-person perspective&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-38">
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-40" value="&lt;h1&gt;Player.Camera&lt;/h1&gt;&lt;div&gt;Provide a cinematic, third-person perspective&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-38">
           <mxGeometry x="10.726893205128206" y="8.934939759036144" width="277.15938884615383" height="203.26987951807226" as="geometry" />
         </mxCell>
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-41" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="9jHa-yjWCjIx_G0f_6F6-26">
@@ -175,7 +175,7 @@
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-57" value="&lt;p style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Simple AI &lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Roam around freely and randomly. Doing neutral things&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="1649.2660550458716" y="392.0652173913043" width="157.06422018348624" height="182.93478260869563" as="geometry" />
         </mxCell>
-        <mxCell id="9jHa-yjWCjIx_G0f_6F6-58" value="&lt;p style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Complex AI&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Have features of Simple AI when idle, &lt;/li&gt;&lt;li&gt;Can chase/challenge the player when triggered&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;rotation=0;" vertex="1" parent="1">
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-58" value="&lt;p style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Advanced AI&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Have features of Simple AI when idle, &lt;/li&gt;&lt;li&gt;Can chase/challenge the player when triggered&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="1649.2660550458716" y="671.8478260869564" width="176.69724770642202" height="182.93478260869563" as="geometry" />
         </mxCell>
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-59" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -200,7 +200,7 @@
           <mxGeometry x="-800" y="392.07" width="680" height="787.93" as="geometry" />
         </mxCell>
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-66" value="&lt;h1&gt;TaskHandling&lt;/h1&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-773.8066666666666" y="499.99833976833963" width="251.42857142857144" height="127.14954740454738" as="geometry" />
+          <mxGeometry x="-773.8066666666666" y="409.99833976833963" width="251.42857142857144" height="127.14954740454738" as="geometry" />
         </mxCell>
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-67" value="" style="group;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-464.76190476190476" y="913.391793221793" width="282.8571428571429" height="216.25911625911618" as="geometry" />
@@ -239,13 +239,13 @@
           <mxGeometry x="-800" y="399.8412698412699" as="geometry" />
         </mxCell>
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-79" value="" style="group;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-768.5714285714286" y="913.391793221793" width="240.95238095238096" height="210.917516087516" as="geometry" />
+          <mxGeometry x="-773.81" y="910" width="240.95" height="219.65" as="geometry" />
         </mxCell>
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-80" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-79">
-          <mxGeometry width="240.95238095238096" height="210.91751608751596" as="geometry" />
+          <mxGeometry width="240.95" height="219.64999999999998" as="geometry" />
         </mxCell>
-        <mxCell id="9jHa-yjWCjIx_G0f_6F6-81" value="&lt;h1&gt;EventManager&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Track all events that happen to the player&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-79">
-          <mxGeometry x="13.386243386243386" y="15.065536863393998" width="209.7178130511464" height="188.31921079242497" as="geometry" />
+        <mxCell id="9jHa-yjWCjIx_G0f_6F6-81" value="&lt;h1&gt;EventListener&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Track all events that happen to the player&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9jHa-yjWCjIx_G0f_6F6-79">
+          <mxGeometry x="13.38611111111111" y="15.689285714285713" width="209.71574074074073" height="196.1160714285714" as="geometry" />
         </mxCell>
         <mxCell id="9jHa-yjWCjIx_G0f_6F6-82" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-820" y="1440" width="1092.92" height="860" as="geometry" />
