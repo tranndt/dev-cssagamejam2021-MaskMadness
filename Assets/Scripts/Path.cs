@@ -7,8 +7,8 @@ public class Path : MonoBehaviour
 
     [SerializeField] Color pathColor;
     private List<Transform> nodes = new List<Transform>();
-
-    private void OnDrawGizmosSelected()
+    
+    private void OnDrawGizmos()
     {
         Gizmos.color = pathColor;
         Transform[] pathTransforms = GetComponentsInChildren<Transform>();

@@ -11,6 +11,7 @@ public class Car_AI : MonoBehaviour
     private CharacterController controller;
     [SerializeField] float carSpeed;
     [SerializeField] float carCurvative;
+    
 
     // Start is called before the first frame update
     void Start()
