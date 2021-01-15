@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Movement_Script_New : MonoBehaviour
+public class Player_Movement_Script: MonoBehaviour
 {
 
     private CharacterController controller;
@@ -11,6 +11,10 @@ public class Player_Movement_Script_New : MonoBehaviour
 
     [SerializeField] float turnSmoothTime = 0.1f;
     private float turnSmoothVelocity;
+
+    private Vector3 velocity;
+    [SerializeField] float speed = 12f;
+    [SerializeField] float gravity = -9.81f;
 
 
     // Start is called before the first frame update
@@ -28,6 +32,14 @@ public class Player_Movement_Script_New : MonoBehaviour
             Base_Behaviour instant = Base_Behaviour.Get_Instance();
             instant.Getspitted();
         }
+
+        if(controller.isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+        }
+
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
     }
 
     public void MovePlayer(float moveSpeed)

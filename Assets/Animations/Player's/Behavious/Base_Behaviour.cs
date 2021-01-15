@@ -15,7 +15,7 @@ public class Base_Behaviour : StateMachineBehaviour
 
     //Get the Player movement
     private GameObject player;
-    private Player_Movement_Script_New playerMovement;
+    private Player_Movement_Script playerMovement;
 
     //Animation variables
     protected const string WALK_ANIM = "isWalking";
@@ -35,12 +35,12 @@ public class Base_Behaviour : StateMachineBehaviour
         return base_instance;
     }
 
-    protected Player_Movement_Script_New GetPlayerMovement()
+    protected Player_Movement_Script GetPlayerMovement()
     {
         if (playerMovement == null)
         {
             player = GameObject.FindGameObjectWithTag("Player");
-            playerMovement = (Player_Movement_Script_New)player.GetComponent(typeof(Player_Movement_Script_New));
+            playerMovement = (Player_Movement_Script)player.GetComponent(typeof(Player_Movement_Script));
         }
         return playerMovement;
     }
