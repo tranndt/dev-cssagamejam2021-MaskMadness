@@ -14,7 +14,6 @@ public class Mask_Attributes : MonoBehaviour
         return protect_value;
     }
 
-
     // Start is called before the first frame update
     void Start()
     {   
@@ -30,5 +29,10 @@ public class Mask_Attributes : MonoBehaviour
     void Update()
     {
         transform.RotateAround(transform.position, Vector3.up, 40 * Time.deltaTime);
+    }
+
+    public void Delete()
+    {
+        GameObject.Destroy(gameObject);
     }
 }

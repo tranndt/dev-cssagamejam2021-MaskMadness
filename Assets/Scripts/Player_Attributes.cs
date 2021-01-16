@@ -59,26 +59,25 @@ public class Player_Attributes : MonoBehaviour
         {
             CheckDead();
             Play_Sound();
-            Debug.Log("WAS");
         }
         
     }
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.layer == 15)
-        {
-            Debug.Log("Mask picked up");
-            FindObjectOfType<AudioManager>().Play("pickup");
-            GameObject mask_object = collider.gameObject;
-            if (mask_object != null)
-            {
-                var maskObj = mask_object.GetComponent<Mask_Attributes>();
-                mask += maskObj.Get_Value();
-                maskBar.SetMask(mask);
-            }
-            Destroy(collider.gameObject);
-        }
+        //if (collider.gameObject.layer == 15)
+        //{
+        //    Debug.Log("Mask picked up");
+        //    FindObjectOfType<AudioManager>().Play("pickup");
+        //    GameObject mask_object = collider.gameObject;
+        //    if (mask_object != null)
+        //    {
+        //        var maskObj = mask_object.GetComponent<Mask_Attributes>();
+        //        mask += maskObj.Get_Value();
+        //        maskBar.SetMask(mask);
+        //    }
+        //    Destroy(collider.gameObject);
+        //}
     }
 
     public void Attacked()

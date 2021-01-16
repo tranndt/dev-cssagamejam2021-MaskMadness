@@ -13,7 +13,7 @@ public class Player_Movement_Script: MonoBehaviour
     private float turnSmoothVelocity;
 
     private Vector3 velocity;
-    [SerializeField] float speed = 12f;
+    //[SerializeField] float speed = 12f;
     [SerializeField] float gravity = -9.81f;
 
 
