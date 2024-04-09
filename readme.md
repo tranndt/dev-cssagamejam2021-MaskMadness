@@ -24,8 +24,8 @@ Development Stack:
 To get home safely, Froggie must:
 - Navigate through an open 3D world
 - Avoid antagonistic agents 
-- Collect protection and grocery items
-- Fultfil tasks and get home safely
+- Collect protection and supplies items
+- Fulfil tasks and get home safely
 
  
 ## Credit and Acknowledgement
