@@ -1,2 +1,0 @@
-# MaskMadness
-CSSA Game Jam 
