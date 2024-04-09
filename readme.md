@@ -3,8 +3,10 @@
 A 3D-styled action game made using Unity Engine (C#) for UM CSSA Game Jam 2021
 
 ***In a post-apocalyptic pandemic world, our protagonist must fulfil tasks (e.g., get supplies, medicines, masks) while avoiding infected and antagonistic agents.***
-
- ![](Assets/preview.png)
+ 
+ ![](Assets/preview02.png)
+ ![](Assets/preview01.png)
+ ![](Assets/preview00.png)
 
 ---
 ## Links
@@ -25,6 +27,7 @@ To get home safely, Froggie must:
 - Collect protection and grocery items
 - Fultfil tasks and get home safely
 
+ 
 ## Credit and Acknowledgement
 
 Team members
